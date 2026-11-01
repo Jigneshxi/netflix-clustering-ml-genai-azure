@@ -1,0 +1,33 @@
+# Python Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Large model artifacts exceeding GitHub 100MB limit
+# The 242MB similarity matrix is generated on demand via data_pipeline.py or computed dynamically
+# The repository tracks the 1.5MB 50-D PCA features (pca_features.npy), kmeans_model.pkl, and metadata
+models/similarity_matrix.pkl
+*.pkl.gz
+
+# Environment variables & secrets
+.env
+.env.local
+azure_credentials.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini

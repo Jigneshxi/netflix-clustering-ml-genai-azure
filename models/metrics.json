@@ -1,0 +1,10 @@
+{
+    "total_titles": 7787,
+    "movies_count": 5377,
+    "tv_shows_count": 2410,
+    "optimal_k": 6,
+    "silhouette_score": 0.1562,
+    "calinski_harabasz_score": 499.44,
+    "davies_bouldin_score": 2.2162,
+    "agglomerative_silhouette": 0.1314
+}
