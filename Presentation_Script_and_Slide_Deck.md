@@ -7,6 +7,16 @@
 
 ---
 
+## 🔗 Submission Details & Video Space
+* **Google Docs Live Submission Document:** **[Open Submission Document](https://docs.google.com/document/d/1hRS53Kc6ppOv7l0Y_a71jpzVgL74szS_zQ2-pO6UA-E/edit?usp=sharing)**
+* **Recorded Video Presentation URL:** `[PASTE_YOUR_VIDEO_LINK_HERE]` *(e.g. YouTube Unlisted / Google Drive / Loom URL)*
+* **GitHub Repository:** [`https://github.com/Jigneshxi/netflix-clustering-ml-genai-azure`](https://github.com/Jigneshxi/netflix-clustering-ml-genai-azure)
+
+### 📝 Project Short Description (For Submission Document):
+> With over 230 million global paid subscribers, Netflix faces catalog bloat and user decision fatigue. This Capstone Project delivers an **End-to-End Unsupervised Machine Learning and Generative AI System** deployed on **Microsoft Azure**. The pipeline cleans and processes 7,787 Netflix titles, builds an NLP text corpus from metadata attributes, applies TF-IDF vectorization (5,000 features), and reduces dimensionality to 50 principal components via PCA. Using optimal **K-Means clustering ($k=6$, Silhouette Score: 0.1562)** validated against **Agglomerative Hierarchical Clustering**, the catalog is categorized into six distinct thematic clusters: *Global International Dramas (48.7%)*, *Crime/Mystery Docuseries (20.2%)*, *Comedy/Stand-Up Specials (9.8%)*, *Kids & Animation (8.1%)*, *Romantic/Indie Stories (6.8%)*, and *Action/Adventure Thrillers (6.4%)*. A high-dimensional Cosine Similarity engine provides top-N personalized recommendations, augmented by an **Explainable AI (XAI) GenAI Copilot** (powered by Google Gemini / Azure OpenAI) that articulates human-readable rationales for why items are paired. The system is packaged in a production **Streamlit** application integrated with Azure Machine Learning Studio pipeline architecture.
+
+---
+
 ## 🧭 Pre-Recording Checklist
 - [ ] Good front-facing lighting with webcam at eye level.
 - [ ] Quiet room with crisp microphone input.

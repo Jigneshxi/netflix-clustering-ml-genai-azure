@@ -2,9 +2,12 @@
 
 **Program:** Machine Learning & GenAI with Microsoft Azure  
 **Project Track:** Netflix Movies and TV Shows Clustering (Unsupervised Learning & Generative AI)  
-**Author / Student:** Data Science & AI Professional  
+**Author / Student:** Jignesh V. ([@jigneshxi](https://github.com/jigneshxi))  
 **Date:** October 2026  
 **Status:** Completed & Ready for Submission  
+**Google Docs Live Document:** [https://docs.google.com/document/d/1hRS53Kc6ppOv7l0Y_a71jpzVgL74szS_zQ2-pO6UA-E/edit?usp=sharing](https://docs.google.com/document/d/1hRS53Kc6ppOv7l0Y_a71jpzVgL74szS_zQ2-pO6UA-E/edit?usp=sharing)  
+**Video Presentation Link:** `[PASTE_YOUR_VIDEO_LINK_HERE]`  
+**GitHub Repository:** [https://github.com/Jigneshxi/netflix-clustering-ml-genai-azure](https://github.com/Jigneshxi/netflix-clustering-ml-genai-azure)  
 
 ---
 

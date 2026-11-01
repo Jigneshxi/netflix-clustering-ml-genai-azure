@@ -2,6 +2,8 @@
 ### Track: Data Science & Agentic AI — Module 2 | AlmaBetter
 
 [![AlmaBetter Track](https://img.shields.io/badge/Track-Data%20Science%20%26%20Agentic%20AI-blueviolet?style=for-the-badge&logo=python&logoColor=white)](https://grow.almabetter.com)
+[![Google Docs](https://img.shields.io/badge/Google%20Docs-Live%20Submission%20Document-4285F4?style=for-the-badge&logo=google-docs&logoColor=white)](https://docs.google.com/document/d/1hRS53Kc6ppOv7l0Y_a71jpzVgL74szS_zQ2-pO6UA-E/edit?usp=sharing)
+[![Video Link](https://img.shields.io/badge/Video%20Presentation-Submission%20Link-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://docs.google.com/document/d/1hRS53Kc6ppOv7l0Y_a71jpzVgL74szS_zQ2-pO6UA-E/edit?usp=sharing)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-Azure%20ML-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/)
@@ -23,13 +25,30 @@ This repository contains the complete research, machine learning pipelines, clou
   - 🎁 **Reward Points:** **+300 APs**
   - 📈 **Course Progress:** Contributes **+10%** directly toward final grade
   - 🎯 **Passing Threshold:** Minimum **≥ 60%** score required
+* **📄 Live Google Docs Submission:** **[Open Live Submission Document on Google Docs](https://docs.google.com/document/d/1hRS53Kc6ppOv7l0Y_a71jpzVgL74szS_zQ2-pO6UA-E/edit?usp=sharing)** *(Active document containing the project short description and live video presentation link)*
+* **🎥 Video Presentation Link:**
+  - **Submission Status:** Active / Ready for evaluation
+  - **Video URL:** `[PASTE_YOUR_VIDEO_LINK_HERE]` *(e.g., Unlisted YouTube / Google Drive / Loom URL — also documented directly in the Google Doc above)*
+  - **Constraint:** Strictly between **15 and 25 minutes** (Mandatory camera ON, fluent English narration)
 * **Primary Submission Deliverables:**
   - 📓 **Jupyter Notebook (AlmaBetter Format):** [`Netflix_Movies_and_TV_Shows_Clustering_AlmaBetter.ipynb`](Netflix_Movies_and_TV_Shows_Clustering_AlmaBetter.ipynb)
   - 📄 **Capstone Technical Documentation:** [`Project_Documentation_Netflix_Clustering.md`](Project_Documentation_Netflix_Clustering.md) & [`Netflix_Clustering_Capstone_Report.docx`](Netflix_Clustering_Capstone_Report.docx)
   - ☁️ **Azure ML Architecture Guide:** [`Azure_ML_and_Deployment_Guide.md`](Azure_ML_and_Deployment_Guide.md)
   - 🚀 **Interactive Streamlit Web App:** [`app.py`](app.py)
   - 🎥 **15–25 Min Video Presentation Blueprint:** [`Presentation_Script_and_Slide_Deck.md`](Presentation_Script_and_Slide_Deck.md)
-* **🎥 Video Explanation Requirement:** Strictly between **15 and 25 minutes** (Mandatory camera ON, fluent English narration covering business problem, EDA insights, NLP feature engineering, K-Means clustering, Cosine Similarity recommendations, Azure ML MLOps architecture, and comprehensive answers to 5 technical interview questions).
+
+---
+
+### 📝 Project Short Description (For Google Docs & Submission Portal)
+
+> **Project Title:** Netflix Movies & TV Shows Clustering and Generative AI Recommendation System  
+> **Specialization Track:** Data Science & Agentic AI — Module 2 (Machine Learning & GenAI with Microsoft Azure)  
+> **Candidate:** Jignesh V. ([@jigneshxi](https://github.com/jigneshxi))  
+> **Live Submission Document:** [Google Docs Submission Link](https://docs.google.com/document/d/1hRS53Kc6ppOv7l0Y_a71jpzVgL74szS_zQ2-pO6UA-E/edit?usp=sharing)  
+> **Video Presentation URL:** `[PASTE_YOUR_VIDEO_LINK_HERE]`  
+>
+> **Executive Summary:**  
+> With over 230 million global paid subscribers, Netflix relies on rapid, personalized content discovery to prevent subscriber churn and decision fatigue. This Capstone Project delivers an **End-to-End Unsupervised Machine Learning and Generative AI System** designed for enterprise deployment on **Microsoft Azure**. The system cleans and analyzes 7,787 Netflix titles, builds an NLP text corpus from metadata attributes, and applies TF-IDF vectorization (5,000 features) reduced to 50 dimensions via Principal Component Analysis (PCA). Using optimal **K-Means clustering ($k=6$, Silhouette Score: 0.1562)** validated against **Agglomerative Hierarchical Clustering**, the catalog is categorized into six distinct thematic clusters: *Global International Dramas (48.7%)*, *Crime/Mystery Docuseries (20.2%)*, *Comedy/Stand-Up Specials (9.8%)*, *Kids & Animation (8.1%)*, *Romantic/Indie Stories (6.8%)*, and *Action/Adventure Thrillers (6.4%)*. A high-dimensional Cosine Similarity engine provides top-N personalized recommendations, augmented by an **Explainable AI (XAI) GenAI Copilot** (powered by Google Gemini / Azure OpenAI) that articulates human-readable rationales for why items are paired. The system is packaged in a production **Streamlit** application integrated with Azure Machine Learning Studio pipeline architecture.
 
 ---
 
@@ -264,6 +283,11 @@ gantt
     5 Technical Follow-Up Answers : 15, 18m
 ```
 
+> ### 🎥 Video Presentation Submission Box
+> * **Google Docs Master Document:** **[Open Live Google Doc](https://docs.google.com/document/d/1hRS53Kc6ppOv7l0Y_a71jpzVgL74szS_zQ2-pO6UA-E/edit?usp=sharing)**
+> * **Direct Video Link:** `[PASTE_YOUR_VIDEO_LINK_HERE]` *(YouTube Unlisted, Loom, or Google Drive link)*
+> * **Recording Criteria:** Strictly between 15 and 25 minutes | Face visible on camera | English narration.
+
 ### Top 5 Technical Follow-Up Interview Questions Answered
 
 #### Q1: Why did you apply PCA before K-Means clustering instead of clustering the raw 5,000 TF-IDF features directly?
@@ -330,3 +354,4 @@ streamlit run app.py
 **Specialization:** Data Science & Agentic AI  
 **Track:** Machine Learning & Generative AI with Microsoft Azure  
 **Institution:** AlmaBetter & Microsoft Azure Partner Network  
+
